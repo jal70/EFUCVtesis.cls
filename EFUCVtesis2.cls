@@ -5,7 +5,7 @@
 %%%% el marco azul de la tapa del libro fue creado por Alberto Bellorin
 %%%% el logo de la UCV fue tomado del manual de imagen de la Facultad de Ciencias http://www.ciens.ucv.ve/coordad/manimagen.html en el año 2014
 %%%% el logo de la Escuela de Física fue reproducido por José Antonio López, manteniendo todas las dimensiones, a partir de una copia de baja definición.
-% San Antonio de Los Altos, 18 de mayo de 2015
+% San Antonio de Los Altos, 1 de enero de 2016
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%															%%%%%%%%%%%%%%%%%%%%
@@ -24,7 +24,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %preámbulo estándar
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{EFUCVtesis2}[20/05/2015 Escuela de Fisica UCV Tesis Versión 1.0]
+\ProvidesClass{EFUCVtesis2}[01/01/2016 Escuela de Fisica UCV Tesis Versión 1.01]
 
 %% Article options
 \DeclareOption{12pt}{
