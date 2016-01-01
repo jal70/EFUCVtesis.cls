@@ -33,7 +33,7 @@ mi_tesis.tex es un documento modelo. En los comentarios encontrará este mensaje
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Al compilar el documento de ejemplo mi_tesis.tex se debe generar el pdf mi_tesis.pdf directamente. Así puede probar si su distribución de latex funciona correctamente.
+Al compilar el documento de ejemplo mi_tesis.tex se debe generar el pdf mi_tesis.pdf directamente. Así puede probar si su distribución de latex funciona correctamente. Hay que copiar los archivos logoucvgifpeq.png y ucvtesis-marco_fisica.pdf deben estar en la misma carpeta que el archivo mi_tesis.tex
 
 Todos los archivos relacionados con el modelo están guardados en la carpeta mi_tesis. Cuando sepa lo que quiere hacer, ud puede borrar esa carpeta o modificarla acorde a su documento. No dañará el funcionamiento del cls.
 
