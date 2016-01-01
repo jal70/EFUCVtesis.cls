@@ -1,7 +1,7 @@
 # EFUCVtesis.cls
 Es un .cls para facilitar la escritura de tesis de grado adaptadas al formato de la Escuela de Física de la Universidad Central de Venezuela
 
-Para empezar a utilizar el cls, se prueba el ejemplo mi_tesis.tex.
+Para empezar a utilizar el cls, se prueba el ejemplo mi_tesis.tex. Hay que copiar los archivos logoucvgifpeq.png y ucvtesis-marco_fisica.pdf deben estar en la misma carpeta que el archivo mi_tesis.tex
 
 Al compilar mi_tesis se genera mi_tesis.pdf. Así podemos saber si el documento funciona bien en nuestra máquina.
 
