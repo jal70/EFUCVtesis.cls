@@ -7,7 +7,7 @@ Al compilar mi_tesis se genera mi_tesis.pdf. Así podemos probar si el documento
 
 Una vez probado se puede escribir el nuevo documento modificando el ejemplo.
 
-mi_tesis.tex usa los archivos en la carpeta mi_tesis. Esta carpeta puede ser eliminada. O se puede modificar, incluyendo allí los archivos de interés para el nuevo proyecto.
+mi_tesis.tex usa los archivos en la carpeta mi_tesis. Una vez hechas las pruebas, esta carpeta puede ser eliminada. O se puede modificar, incluyendo allí los archivos de interés para el nuevo proyecto.
 
 Todos los documentos requeridos obligatoriamente para el funcionamiento del .cls están en la carpeta EFUCVtesis. Esta carpeta no debe ser borrada.
 
