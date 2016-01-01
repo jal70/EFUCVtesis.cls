@@ -32,3 +32,5 @@ eso-pic <- fondo de portada
 leading <- variación del interlineado
 
 fancyhdr <- configuración de encabezados y pies de página
+
+textcase <- para la escritura del título en letras mayúsculas, sin afectar fórmulas químicas ni matemáticas
