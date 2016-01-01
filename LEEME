@@ -1,4 +1,4 @@
-Instrucciones para uso del cls EFUCVtesis2.cls
+Instrucciones para uso del cls EFUCVtesis.cls
 
 Los archivos para comenzar son mi_tesis.tex y bibliografia.bib
 
@@ -9,8 +9,8 @@ mi_tesis.tex es un documento modelo. En los comentarios encontrará este mensaje
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 % Este ejemplo ha sido elaborado por Jose Antonio López. Dudas: jal.ccs@gmail.com
-% Está basado en el cls EFUCVtesis2.cls
-% EFUCVtesis2 ajusta los márgenes del documento, define babel spanish y fuentes utf8, que permiten usar 
+% Está basado en el cls EFUCVtesis.cls
+% EFUCVtesis ajusta los márgenes del documento, define babel spanish y fuentes utf8, que permiten usar 
 % acentos. También define funciones para manejar la información del autor, título, tutores e 
 % incluye las portadas. Los comentarios dan instrucciones sobre el uso de dichas funciones
 %%
@@ -49,13 +49,13 @@ IMPORTANTE
 
 ###########################################
 
-EFUCVtesis2.cls Versión 1.0 está basado en book.cls. La ejecución requiere imágenes y archivos que están almacenados en la carpeta llamada EFUCVtesis. Ésta carpeta no debe borrarse. 
+EFUCVtesis.cls Versión 1.01 está basado en book.cls. La ejecución requiere imágenes y archivos que están almacenados en la carpeta llamada EFUCVtesis. Ésta carpeta no debe borrarse. 
 
-Ud no debe editar el documento EFUCVtesis2.cls, ni los archivos dentro de la carpeta EFUCVtesis, a menos que sepa muy bien lo que está haciendo. 
+Ud no debe editar el documento EFUCVtesis.cls, ni los archivos dentro de la carpeta EFUCVtesis, a menos que sepa muy bien lo que está haciendo. 
 Por cierto, aún cuando sepa lo que está haciendo, no se recomienda editar ninguno de estos documentos.
 
 #################################
-Paquetes requeridos por EFUCVtesis2
+Paquetes requeridos por EFUCVtesis
 ##################################
 
 inputenc [utf8] <- escritura normal en español (acentos y eñes)
@@ -75,7 +75,7 @@ IMPORTANTE (usuarios debian y derivados)
 
 ###########################################
 
-Es altamente recomdendable tomarse la molestia de actualizar TexLive antes de trabajar con EFUCVtesis2.cls 
+Es altamente recomdendable tomarse la molestia de actualizar TexLive antes de trabajar con EFUCVtesis.cls 
 1.
 	$sudo add-apt-repository ppa:texlive-backports/ppa
 2.
