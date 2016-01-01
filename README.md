@@ -3,9 +3,9 @@ Es un .cls para facilitar la escritura de tesis de grado adaptadas al formato de
 
 Para empezar a utilizar el cls, se prueba el ejemplo mi_tesis.tex.
 
-Al compilar mi_tesis se genera mi_tesis.pdf. Así podemos probar si el documento funciona bien en nuestra máquina.
+Al compilar mi_tesis se genera mi_tesis.pdf. Así podemos saber si el documento funciona bien en nuestra máquina.
 
-Una vez probado se puede escribir el nuevo documento modificando el ejemplo.
+Una vez lograda la prueba se puede escribir el nuevo documento modificando sobre ejemplo mi_tesis.tex.
 
 mi_tesis.tex usa los archivos en la carpeta mi_tesis. Una vez hechas las pruebas, esta carpeta puede ser eliminada. O se puede modificar, incluyendo allí los archivos de interés para el nuevo proyecto.
 
