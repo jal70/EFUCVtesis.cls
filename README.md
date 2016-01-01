@@ -16,11 +16,19 @@ EFUCVtesis.cls ha funcionado bien en ubuntu, linux-mint y windows. No hay prueba
 EFUCVtesis está basado en book.cls. Requiere los siguientes paquetes:
 
 inputenc [utf8] <- escritura normal en español (acentos y eñes)
+
 babel [spanish] <- idioma del documento
+
 ifthen <- manejar condiciones
+
 mhchem [version=3] <- escritura de fórmulas químicas
+
 environ <- incluir páginas con formato especial
+
 pdfpages <- fondo de portada
+
 eso-pic <- fondo de portada
+
 leading <- variación del interlineado
+
 fancyhdr <- configuración de encabezados y pies de página
