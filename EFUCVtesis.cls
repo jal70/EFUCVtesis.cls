@@ -200,6 +200,7 @@
 %% versión 0.5 da error en el veredicto
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\textoportada}[3]{
+\leading{16pt}
 \begin{tabular}{cc} 
 	\rule{#1}{0ex} \rule{0cm}{#2} & \rule{#3}{0ex} \\ 
 	\rule{0pt}{20ex}  &
@@ -235,6 +236,7 @@
 	\rule{0pt}{3ex} &
 	Caracas-Venezuela\\ 
 \end{tabular}
+\leading{18pt}
 }
 
 
