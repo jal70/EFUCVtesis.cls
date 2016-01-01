@@ -142,6 +142,10 @@
 %% opciones de portada
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
+\RequirePackage{textcase}
+%sirve para evitar que las fórmulas químcas y matemáticas se distorsionen con las mayúculas del título
+%
+%
 \RequirePackage{pdfpages}
 %
 \RequirePackage{eso-pic}
@@ -207,7 +211,7 @@
 	\rule{0pt}{10ex}}\\ 
 	\rule{0pt}{24ex}  & 
 	\includegraphics[scale=1]{EFUCVtesis/imagenes/logoucvgifpeq.png}\\ 	\rule{0pt}{26ex} &
-		\raisebox{10ex}{\parbox[c]{15cm}{ \centering \tesistitulo }} \\ 
+		\raisebox{10ex}{\parbox[c]{15cm}{ \centering {\bfseries \MakeTextUppercase{\expandafter{\tesistitulo}}} }} \\ 
 	\rule{0pt}{19ex} &
 	\parbox[c]{8cm}{			
 		\centering
