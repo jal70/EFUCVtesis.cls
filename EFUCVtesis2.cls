@@ -158,7 +158,7 @@
 \parbox[b][\paperheight]{\paperwidth}{%
 \vfill
 \centering
-\includegraphics[width=\paperwidth,height=\paperheight,keepaspectratio]{EFUCVtesis/imagenes/ucvtesis-marco_fisica.pdf}%
+\includegraphics[width=\paperwidth,height=\paperheight,keepaspectratio]{ucvtesis-marco_fisica.pdf}%
 \vfill
 }}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -210,7 +210,7 @@
 	escuela de física\\
 	\rule{0pt}{10ex}}\\ 
 	\rule{0pt}{24ex}  & 
-	\includegraphics[scale=1]{EFUCVtesis/imagenes/logoucvgifpeq.png}\\ 	\rule{0pt}{26ex} &
+	\includegraphics[scale=1]{logoucvgifpeq.png}\\ 	\rule{0pt}{26ex} &
 		\raisebox{10ex}{\parbox[c]{15cm}{ \centering {\bfseries \MakeTextUppercase{\expandafter{\tesistitulo}}} }} \\ 
 	\rule{0pt}{19ex} &
 	\parbox[c]{8cm}{			
