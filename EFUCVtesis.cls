@@ -247,7 +247,7 @@
 %%Espaciado entre lineas
 %%%%%%%%%%%%%%%%%%%%%%%%
 \RequirePackage{leading}
-\leading{16pt}
+\leading{18pt}
 %%
 %%%%%%%%%%%%%%%%%%%%%%%%
 %%encabezado y pie de pagina
