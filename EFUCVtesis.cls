@@ -24,7 +24,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %preámbulo estándar
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{EFUCVtesis2}[01/01/2016 Escuela de Fisica UCV Tesis Versión 1.01]
+\ProvidesClass{EFUCVtesis}[01/01/2016 Escuela de Fisica UCV Tesis Versión 1.01]
 
 %% Article options
 \DeclareOption{12pt}{
@@ -200,6 +200,7 @@
 %% versión 0.5 da error en el veredicto
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\textoportada}[3]{
+\leading{16pt}
 \begin{tabular}{cc} 
 	\rule{#1}{0ex} \rule{0cm}{#2} & \rule{#3}{0ex} \\ 
 	\rule{0pt}{20ex}  &
@@ -235,6 +236,7 @@
 	\rule{0pt}{3ex} &
 	Caracas-Venezuela\\ 
 \end{tabular}
+\leading{18pt}
 }
 
 
@@ -247,7 +249,7 @@
 %%Espaciado entre lineas
 %%%%%%%%%%%%%%%%%%%%%%%%
 \RequirePackage{leading}
-\leading{16pt}
+\leading{18pt}
 %%
 %%%%%%%%%%%%%%%%%%%%%%%%
 %%encabezado y pie de pagina
