@@ -1,0 +1,48 @@
+
+\begin{letter}
+
+
+
+\begin{flushright}
+\today
+\end{flushright}
+
+Consejo de la Escuela de Física\\
+Facultad de Ciencias\\
+Universidad Central de Venezuela\\
+\\
+
+Estimados miembros del Consejo de Escuela\\
+\\
+
+Reciban un cordial saludo. Conforme a lo establecido en el artículo 13 de la “Normativa de Trabajo Especial de Grado de la Licenciatura en Física de la Facultad de Ciencias de la UCV”  \ifthenelse{\equal{\Dtutores}{si}}
+{les remitimos}{les remito} tres ejemplares de la monografía de TEG \ifthenelse{\equal{\tesisautorgen}{m}}
+   		{{del}}
+   		{\ifthenelse{\equal{\tesisautorgen}{f}}
+   		{{de la}}
+   		{{\bf Error! designación de genero de autor no admitida. Use letras minúculas m o f}}} estudiante {\bf \tesisautor}, CI: {\bf \tesisautorcedula}, titulado \tesistitulo{}, los cuales \ifthenelse{\equal{\Dtutores}{si}}
+{hemos revisado y consideramos}{he revisado y considero} listos para la evaluación por parte de un jurado.
+
+Agradeciendo la consideración que sirvan prestar a la presente, \ifthenelse{\equal{\Dtutores}{si}}
+{nos despedimos}{me despido} atentamente,\\
+
+\ifthenelse{\equal{\Dtutores}{si}}
+{
+\begin{tabular}{p{6cm}p{1cm}p{6cm}}
+\rule{0pt}{5ex}  & & \rule{0pt}{5ex}  \\ 
+\titulotutorA~ \nombretutorA && \titulotutorB~ \nombretutorB~ \\
+\cedulatutorA ~ && \cedulatutorB ~ \\  
+\designaciontutor{\generotutorA} ~ && \designaciontutor{\generotutorB} ~ \\ 
+\afiliaciontutorA ~ && \afiliaciontutorB ~ \\ 
+\end{tabular}
+}{
+\begin{tabular}{p{3.5cm}p{6cm}p{3.5cm}}
+&\rule{0pt}{5ex} &  \\ 
+&\titulotutorA~ \nombretutorA & \\
+&\cedulatutorA ~ & \\  
+&\designaciontutor{\generotutorA} ~ & \\ 
+&\afiliaciontutorA ~ & \\ 
+\end{tabular}
+
+}
+\end{letter}
