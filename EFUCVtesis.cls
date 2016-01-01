@@ -24,7 +24,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %preámbulo estándar
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{EFUCVtesis2}[01/01/2016 Escuela de Fisica UCV Tesis Versión 1.01]
+\ProvidesClass{EFUCVtesis}[01/01/2016 Escuela de Fisica UCV Tesis Versión 1.01]
 
 %% Article options
 \DeclareOption{12pt}{
