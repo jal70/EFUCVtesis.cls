@@ -1,0 +1,54 @@
+\chapter{Resumen de formato y medidas}
+\begin{itemize}
+\item Los TEG se imprimen a doble cara 
+\item Los márgenes superior e inferior son de 2,5 cm entre el papel y el texto 
+\item En las páginas pares (izquierdas) el margen derecho es de 3 cm, el izquierdo es de 2,5 cm
+\item La separaci\'on entre l\'ineas es de 16pt 
+\item En las páginas impares (derechas) las dimensiones de los márgenes se invierten.
+\item Los headers y footers son opcionales. En caso de usarse, las páginas izquierdas muestran el nombre del capítulo. Las derechas muestran el nombre de la sección.
+\item Las páginas se numeran en la parte superior-exterior del libro (lado izquierdo en páginas pares y lado derecho en páginas impares)
+\item La primera página de cada capítulo se imprime en una hoja impar. No se numera.
+\item Todas las numeraciones de capítulos, secciones, ecuaciones, cuadros y figuras son arábicas. 
+\item Las páginas iniciales (dedicatoria, resumen, etc) y los índices no se numeran, pero se cuentan en la numeración de las posteriores.
+\item Las referencias se citan con números. La bibliografía se ordena siguiendo la secuencia de aparición de las citas en el texto.
+\end{itemize}
+%
+\cleardoublepage
+\thispagestyle{empty}
+\AddToShipoutPicture*{\BackgroundPic}
+\begin{tabular}{cc} 
+	\rule{0.67cm}{0ex} \rule{0cm}{3ex} & \rule{16.25cm}{0ex} \\ 
+	\rule{5pt}{20ex} 3 cm  &
+	\parbox[c]{8cm}{
+	\sc \centering
+	universidad central de venezuela\\
+	facultad de ciencias\\
+	escuela de física\\
+	\rule{5pt}{10ex}} 1,5 cm\\ 
+	\rule{5pt}{24ex} 3,6 cm & 
+	\includegraphics[scale=1]{EFUCVtesis/imagenes/logoucvgifpeq.png}\\ 	\rule{5pt}{26ex} 3,9 cm &
+		\raisebox{10ex}{\parbox[c]{15cm}{ \centering \tesistitulo }} \\ 
+		%\raisebox{10ex}{\parbox[c]{15cm}{\sc \centering {\tesistitulo}}} \\ 
+	\rule{5pt}{19ex} 2,9 cm &
+	\parbox[c]{8cm}{			
+		\centering
+  		Trabajo Especial de Grado presentado por \\ 
+ 		\tesisautor \\
+   		ante la Facultad de Ciencias de la \\
+   		ilustre Universidad Central de Venezuela \\
+   		como requisito parcial para optar al t\'{\i}tulo de: 
+		\ifthenelse{\equal{\tesisautorgen}{m}}
+   		{{\bfseries {Licenciado en F\'isica}}}
+   		{\ifthenelse{\equal{\tesisautorgen}{f}}
+   		{{\bfseries {Licenciada en F\'isica}}}
+   		{{\bf Error! designación de genero de autor no admitida. Use letras minúculas m o f}}}\\   		
+   		\begin{tabular}{rl}
+   		\rule{0pt}{3ex}	Con la tutoría de:&\titulotutorA~ \nombretutorA\\
+   		 						&\ifthenelse{\equal{\Dtutores}{si}}{ {\titulotutorB~ \nombretutorB} }{} 
+   		\end{tabular}
+  	}\\ 
+	\rule{5pt}{8ex} 1,2 cm&
+	\tesisanho \\ 
+	\rule{5pt}{3ex} 0,5 cm &
+	Caracas-Venezuela\\ 
+\end{tabular}
