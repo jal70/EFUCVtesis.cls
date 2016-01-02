@@ -1,13 +1,13 @@
 # EFUCVtesis.cls
 Es un .cls para facilitar la escritura de tesis de grado adaptadas al formato de la Escuela de Física de la Universidad Central de Venezuela
 
-Para empezar a utilizar el cls, se prueba el ejemplo TEG_ejemplo.tex.
+Para empezar a utilizar el cls, se prueba el ejemplo mi_tesis.tex.
 
-Al compilar TEG_ejemplo.tex se genera TEG_ejemplo.pdf. Así podemos saber si el documento funciona bien en nuestra máquina.
+Al compilar mi_tesis se genera mi_tesis.pdf. Así podemos saber si el documento funciona bien en nuestra máquina.
 
-Una vez lograda la prueba se puede escribir el nuevo documento modificando sobre ejemplo TEG_ejemplo.tex.
+Una vez lograda la prueba se puede escribir el nuevo documento modificando sobre ejemplo mi_tesis.tex.
 
-TEG_ejemplo.tex usa los archivos en la carpeta TEG_ejemplo. Una vez hechas las pruebas, esta carpeta puede ser eliminada. O se puede modificar, incluyendo allí los archivos de interés para el nuevo proyecto.
+mi_tesis.tex usa los archivos en la carpeta mi_tesis. Una vez hechas las pruebas, esta carpeta puede ser eliminada. O se puede modificar, incluyendo allí los archivos de interés para el nuevo proyecto.
 
 Todos los documentos requeridos obligatoriamente para el funcionamiento del .cls están en la carpeta EFUCVtesis. Esta carpeta no debe ser borrada.
 
