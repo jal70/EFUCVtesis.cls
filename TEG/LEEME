@@ -49,7 +49,7 @@ IMPORTANTE
 
 ###########################################
 
-EFUCVtesis.cls Versión 1.01 está basado en book.cls. La ejecución requiere imágenes y archivos que están almacenados en la carpeta llamada EFUCVtesis. Ésta carpeta no debe borrarse. 
+EFUCVtesis.cls está basado en book.cls. La ejecución requiere imágenes y archivos que están almacenados en la carpeta llamada EFUCVtesis. Ésta carpeta no debe borrarse. 
 
 Ud no debe editar el documento EFUCVtesis.cls, ni los archivos dentro de la carpeta EFUCVtesis, a menos que sepa muy bien lo que está haciendo. 
 Por cierto, aún cuando sepa lo que está haciendo, no se recomienda editar ninguno de estos documentos.
