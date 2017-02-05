@@ -57,12 +57,19 @@
 \LoadClass[12pt,twoside,letterpaper]{book}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% hiperenlaces 
+%% y direcciones url
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\RequirePackage[bookmarks]{hyperref}
+\RequirePackage{url}
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% inputenc utf8 para poner los acentos, babel para nombrar las secciones en español, 
 %% ifthen para usar  condicionales
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Load additional packages and commands.
 \RequirePackage[utf8]{inputenc}
-\RequirePackage[spanish]{babel}
+\RequirePackage[spanish, es-tabla]{babel}
 \RequirePackage{ifthen}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
